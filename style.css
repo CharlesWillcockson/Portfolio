@@ -1,6 +1,93 @@
+body{
+    background-color: black;
+    font-family: 'Orbitron', sans-serif;
+}
+
+ul {
+    align-items: center;
+}
+
+.navbar-brand{
+    color: #ccff33;
+}
+
+.nav-link{
+    font-size: 1.25em;
+    line-height: 1;
+    color: #ccff33;
+}
+
 .resume-button{
-    border: 1px solid mediumpurple;
+    border: 1px solid #ccff33;
     border-radius: 10px;
     padding: .75em 1em;
-    line-height: 1;
+    align-self: center;
+    color: #ccff33;
+}
+
+.slide-left{
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide-left p{
+    animation: slide-left 10s;
+}
+
+@keyframes slide-left {
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.slide-right{
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide-right h1{
+    animation: slide-left 10s;
+}
+
+@keyframes slide-right {
+    from{
+        margin-right: 100%;
+        width: 300%;
+    }
+
+    to{
+        margin-right: 0%;
+        width: 100%;
+    }
+}
+.p1{
+    font-size: 25px;
+    padding-left: 100px;
+    color: #9ef01a;
+}
+
+.p2{
+    font-size: 25px;
+    text-align: center;
+    color: #38b000;
+}
+
+.p3{
+    font-size: 25px;
+    float: right;
+    padding-right: 80px;
+    color: #008000
+}
+
+.top h1{
+    text-align: center;
+    color: #70e000;
+    font-size: 5em;
+    font-family: 'Orbitron', sans-serif;
 }
