@@ -1,6 +1,7 @@
 body{
     background-color: black;
     font-family: 'Orbitron', sans-serif;
+    background-image: url("909781.jpg");
 }
 
 ul {
@@ -62,27 +63,27 @@ ul {
     }
 
     to{
-        margin-right: 0%;
+        margin-right: 15%;
         width: 100%;
     }
 }
 .p1{
-    font-size: 25px;
+    font-size: 30px;
     padding-left: 100px;
-    color: #9ef01a;
+    color: black;
 }
 
 .p2{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     color: #38b000;
 }
 
 .p3{
-    font-size: 25px;
-    float: right;
-    padding-right: 80px;
-    color: #008000
+    font-size: 30px;
+    color: #008000;
+    text-align: right;
+    margin-right: 50px;
 }
 
 .top h1{
