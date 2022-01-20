@@ -68,9 +68,10 @@ ul {
     }
 }
 .p1{
-    font-size: 30px;
+    font-size: 47px;
     padding-left: 100px;
-    color: black;
+    color: white;
+    -webkit-text-stroke: 1px #38b000;
 }
 
 .p2{
