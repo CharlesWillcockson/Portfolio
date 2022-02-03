@@ -2,8 +2,53 @@ body{
     background-color: black;
     font-family: 'Orbitron', sans-serif;
     background-image: url("909781.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.landing {
+    padding-bottom: 200px;
+}
+
+.about {
+    display: flex;
+}
+.about h1{
+    color: #38b000;
+    text-shadow: 1px 1px white;
+    /*margin-top: 250px;*/
+}
+
+.work h1{
+    color: #38b000;
+    text-shadow: 1px 1px white;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    /*margin-top: 250px;*/
+}
+
+.experience h1{
+    color: #38b000;
+    text-shadow: 1px 1px white;
+    /*margin-top: 250px;*/
+}
+
+.contact h1{
+    color: #38b000;
+    text-shadow: 1px 1px white;
+    /*margin-top: 250px;*/
+}
+
+.about-me{
+    color: #70e000;
+    font-size: 1.5em;
+}
+
+.image{
+    max-height: 400px;
+    border-radius: 10px;
+}
 ul {
     align-items: center;
 }
@@ -29,6 +74,10 @@ ul {
 .slide-left{
     width: 100%;
     overflow: hidden;
+}
+
+.experience{
+    margin-top: 135px;
 }
 
 .slide-left p{
@@ -87,9 +136,23 @@ ul {
     margin-right: 50px;
 }
 
+.about-me {
+    margin-bottom: 100px;
+}
+
 .top h1{
     text-align: center;
     color: #70e000;
     font-size: 5em;
     font-family: 'Orbitron', sans-serif;
+}
+
+#coffee{
+    box-shadow:30px 20px 20px #70e000;
+    margin-bottom: 100px;
+}
+
+#tanks{
+    box-shadow:30px 20px 20px #70e000;
+
 }
